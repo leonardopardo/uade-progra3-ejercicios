@@ -1,9 +1,8 @@
 # UADE - PROGRAMACIÓN III
-## CURSO DE VERANO - 2021
+___CURSO DE VERANO - 2021___
 
 - Resolución de Ejercicios
 
 
-Autor: Leonardo Pardo
-
+Autor: Leonardo Pardo  
 Email: lepardo@uade.edu.ar
