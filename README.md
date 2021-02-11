@@ -1,2 +1,4 @@
-# uade-progra3-ejercicios
-Ejercicios Programación 3 Cursada de Verano 2021
+# UADE - PROGRAMACIÓN III
+## CURSO DE VERANO - 2021
+
+- Resolución de Ejercicios
