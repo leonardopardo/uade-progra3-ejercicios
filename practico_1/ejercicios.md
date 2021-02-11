@@ -608,8 +608,9 @@ __Ejercicio 2__
 Codifique en C++ los problemas que se listan a continuación y determine la complejidad temporal en notación Big-Oh:
 
 __a)__ Dado un arreglo de números enteros, escribir una función en C++ que verifique si un valor determinado pertenece o no al arreglo.
+
 ```
- // code here ...
+// code here ...
 ```
 
 __b)__ Escribir una función que reciba como parámetro un arreglo de N números naturales, busque el elemento “mayoría” y retorne si existe el elemento mayoría y, en caso positivo, la cantidad de veces que aparece en el arreglo. El elemento mayoría es aquel que aparece más de N/2 veces en el arreglo.
