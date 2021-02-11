@@ -21,7 +21,7 @@ ___
 
 __Ejercicio 1__
 
-- Ejercicio __a__
+- Ejercicio __a__  
 ```
 void Calculo (double a, double b, double c) {
     double resultado;
@@ -37,7 +37,7 @@ void Calculo (double a, double b, double c) {
 
 ___
 
-- Ejercicio __b__
+- Ejercicio __b__  
 ```
 float Suma (float arreglo[ ], int cantidad) {
     float suma= 0;
@@ -48,33 +48,33 @@ float Suma (float arreglo[ ], int cantidad) {
     return suma;
 }
 ```
-1. Variable de Entrada
+1. Variable de Entrada  
 
-    Se identifica a "cantidad" como variable de entrada.
+    Se identifica a "cantidad" como variable de entrada.  
     `cantidad = n`
 
-2. Estructura del código (concatenación | selección | iteración)
+2. Estructura del código (concatenación | selección | iteración)  
 
-    T(n) <- `Estructura iterativa`
+    T(n) <- `Estructura iterativa`  
 
-3. Fórmula de la estructura
+3. Fórmula de la estructura  
 
-    `T(n) = tc + (tc + ts) * iteraciones`
+    `T(n) = tc + (tc + ts) * iteraciones`  
 
-4. Fórmula resultante
+4. Fórmula resultante  
 
-    `T(n) = 1 + (1 + 4) * n`
+    `T(n) = 1 + (1 + 4) * n`  
 
-    'suman = 0' se suman al primer termino, entonces
+    'suman = 0' se suman al primer termino, entonces  
 
-    `T(n) = 2 + 5n`
+    `T(n) = 2 + 5n`  
 
-    `T(n) = 5n + 2`
+    `T(n) = 5n + 2`  
 
-5. Solución 
+5. Solución   
 
     Dado que `T(n) = 5n + 2` es una función líneal, despojandodola de sus constantes y factores, 
-    y por el principio de invariaza tenemos que `T(n) pertenece O(n)`
+    y por el principio de invariaza tenemos que `T(n) pertenece O(n)`  
 
 ___
 
