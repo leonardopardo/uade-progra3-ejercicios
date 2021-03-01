@@ -1,6 +1,4 @@
-# Parte 2
-
-__Ejercicio 4__
+# Parte 2 - Divide y conquista
 
 1. Determinar si una secuencia de n caracteres está ordenada alfabéticamente.
 
@@ -12,7 +10,20 @@ __Ejercicio 4__
 número x dado pertenece al vector.
 
 ```
-// code here ...
+    public static boolean PerteneceValor(int[] arreglo, int i, int d, int val) {
+
+        if (i >= d)
+           return false;
+
+        int m = (i + d) / 2;
+
+        if( arreglo[m] == val)
+            return true;
+        else if(arreglo[m] < val)
+            return PerteneceValor(arreglo, m + 1, d, val);
+        else
+            return PerteneceValor(arreglo, i, m, val);
+    }
 ```
 
 3. Calcular a^n cuando n es una potencia de 2.
@@ -46,8 +57,7 @@ ordenamiento Merge-Sort, pero dividiendo el vector en 3 subvectores y analizar e
 ```
 
 8. Un organismo ha decidido organizar un torneo de fútbol con n equipos participantes. Cada equipo 
-ha de competir exactamente una vez con todos los FACULTAD DE INGENIERÍA Y CIENCIAS EXACTAS 
-DEPARTAMENTO DE TECNOLOGÍA INFORMÁTICA Página 4 de 20 demás equipos oponentes. Además, se ha decidió 
+ha de competir exactamente una vez con todos los demás equipos oponentes. Además, se ha decidió 
 que cada equipo juega exactamente un partido cada jornada, con la posible excepción de un solo día en
 el cual no juega. Si n es una potencia de 2, diseñar un algoritmo que permita
 que el torneo concluya en n-1 jornadas.
